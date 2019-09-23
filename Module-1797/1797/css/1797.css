@@ -1,0 +1,71 @@
+@media screen and (min-width: 414px) {
+  .site-heading {
+    margin-left: 73px !important;
+  }
+}
+.container {
+  max-width: 1000px;
+}
+.col-lg-8 {
+  width: 78.666667%;
+}
+header.masthead {
+  margin-bottom: 50px;
+  background: no-repeat center center;
+  background-color: #868e96;
+  background-attachment: scroll;
+  position: relative;
+  background-size: cover;
+}
+h1 {
+  display: block;
+  margin-block-start: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+header.masthead .site-heading .subheading {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.1;
+  display: block;
+  margin: 10px 0 0;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+header.masthead .page-heading,
+header.masthead .post-heading,
+header.masthead .site-heading {
+  padding: 200px 0;
+}
+header.masthead .page-heading h1,
+header.masthead .site-heading h1 {
+  font-size: 80px;
+}
+h1 {
+  font-weight: 800;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+header.masthead .site-heading .subheading {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.1;
+  display: block;
+  margin: 10px 0 0;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+header.masthead .site-heading {
+  text-align: center;
+  margin-left: 258px;
+  color: #fff;
+}
+header.masthead .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #212529;
+  opacity: .5;
+}
+.container {
+  max-width: 1000px;
+}
