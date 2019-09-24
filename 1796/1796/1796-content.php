@@ -47,7 +47,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <a href="#">Forgot Password</a>
                         </div>
                     </div>
-                    <input type="submit" value="Login">
+                    <input class="sss" type="submit" value="Login">
                     <span class="stm-listing-loader"><i class="stm-icon-load1"></i></span>
                 </form>
             </div>

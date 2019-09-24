@@ -81,3 +81,6 @@ h3,
   font-weight: 700;
   text-align: center;
 }
+.sss:hover {
+  background: blue;
+}
