@@ -29,7 +29,7 @@
 
     </head>
     <body>
-         <?php  $dir_block.include'1797-content.php'; ?>
+         <?php include'1797-content.php'; ?>
     </body>
 
 </html>

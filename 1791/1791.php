@@ -28,6 +28,6 @@
         <link href="<?php echo $url_path ?>/css/1172.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-         <?php  $dir_block.include'1791-content.php'; ?>
+         <?php include'1791-content.php'; ?>
     </body>
 </html>

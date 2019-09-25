@@ -58,14 +58,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </div>
 
                                                         <div class="stm-pricing-table heading-font" style="word-wrap: break-word;">
-                                                            <table class="table table-striped">
-                                                                <tbody>
-                                                                    <tr>
-                                                                        <th scope="row">1</th>
-                                                                        <td>Mark</td>
-                                                                        <td>Otto</td>
-                                                                        <td>@mdo</td>
-                                                                    </tr>
                                                                     <div class="stm-pricing-table__title">Free</div>
                                                                     <ul class="stm-pricing-table__periods">
                                                                         <li class="stm-pricing-table__periods-item stm-pricing-table__periods-item_active" data-period="month">
@@ -140,8 +132,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                                                             <a href="#" class="button">Sign Up<i class="stm-icon stm-icon-arrow-right"></i></a>
                                                                         </div>
                                                                     </div>
-                                                                </tbody>
-                                                            </table>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -324,39 +314,3 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
     </div>
 </div>
-
-
-
-
-
-
-<table class="table table-striped">
-    <thead>
-        <tr>
-            <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col">Handle</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-        </tr>
-        <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-        </tr>
-        <tr>
-            <th scope="row">3</th>
-            <td>Larry</td>
-            <td>the Bird</td>
-            <td>@twitter</td>
-        </tr>
-    </tbody>
-</table>s
