@@ -8,34 +8,17 @@
   flex-direction: row;
   margin-top: 10px;
 }
-.stm-login-form {
-  position: absolute;
-  padding: 21px 15px 0 30px;
-  background-color: #fff;
-  opacity: 0;
-  visibility: hidden;
-  box-shadow: -1px 2px 10px rgba(0,0,0,0.3);
+.form-group {
+  width: auto;
 }
-.stm-login-form {
-  width: 235px;
-  padding: 25px 20px;
-  margin-left: -5px;
-}
-.stm-login-form {
-  top: 100%;
-  opacity: 1;
-  visibility: visible;
-}
-.stm-login-form {
-  padding: 10px 30px;
+.aa {
   background-color: #153e4d;
-  color: #fff;
-  font-weight: 700;
-  font-size: 19px;
-  line-height: 16px;
-  top: 35%;
   width: 30%;
-  margin-top: -60px;
+  font-weight: bold;
+  color: #FFF;
+  margin-top: 10px;
+  padding: 20px;
+  position: relative;
 }
 .stm-listing-loader {
   opacity: 0;
@@ -46,6 +29,7 @@
   display: block;
   width: 100%;
   color: #000;
+  background: #f9f4a0;
 }
 body
 
@@ -64,8 +48,8 @@ input[type=submit] {
   -webkit-appearance: button;
   cursor: pointer;
   background: green;
-  padding-top: 7px;
-  padding-bottom: 7px;
+  padding-top: 3px;
+  padding-bottom: 3px;
   width: auto;
 }
 .stm-forgot-password a.active,
@@ -79,113 +63,52 @@ h3,
   line-height: 1.2;
   font-size: 26px;
   font-weight: 700;
-  text-align: center;
 }
 .box:hover {
   background: blue;
 }
-@media only screen and (min-device-width: 415px) and (max-device-width: 768px) {
-  .stm-login-form {
-    width: auto;
-    margin-top: -200px;
-    margin-left: 20px;
-  }
-  .b {
-    margin-top: -20px;
-    margin-left: 15px;
-  }
-  .a {
-    margin-top: -20px;
+@media only screen and (min-width: 1024px) {
+  .aa {
+    width: 30%;
   }
 }
-@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
-  .stm-login-form {
-    width: auto;
-    margin-top: -200px;
-    margin-left: 50px;
+@media only screen and (min-width: 415px) {
+  .aa {
+    width: 40%;
   }
 }
-@media only screen and (min-width: 1025px) and (max-device-width: 1900px) {
-  .stm-login-form {
-    width: auto;
-    margin-top: -250px;
+@media only screen and (min-width: 768px) {
+  .aa {
+    width: 40%;
   }
 }
-@media only screen and (min-device-width: 412px) and (max-device-width: 414px) {
-  .stm-login-form {
-    width: auto;
-    margin-top: -75px;
-    margin-left: 50px;
-  }
-  .b {
-    margin-top: -15px;
-    margin-left: 35px;
-  }
-  .a {
-    margin-left: 20px;
-    margin-top: -10px;
+@media only screen and (min-device-width: 411px) {
+  .aa {
+    width: 100%;
   }
 }
-@media only screen and (min-device-width: 376px) and (max-device-width: 411px) {
-  .stm-login-form {
-    width: auto;
-    margin-top: -110px;
-    margin-left: 50px;
-  }
-  .b {
-    margin-top: -20px;
-    margin-left: 38px;
-  }
-  .a {
-    margin-left: 23px;
-    margin-top: -10px;
+@media only screen and (min-device-width: 414px) {
+  .aa {
+    width: 100%;
   }
 }
 @media only screen and (min-device-width: 361px) and (max-device-width: 375px) {
-  .stm-login-form {
-    width: auto;
-    margin-top: -90px;
-    margin-left: 30px;
-  }
-  .b {
-    margin-top: -20px;
-    margin-left: 15px;
-  }
-  .a {
-    margin-top: -20px;
+  .aa {
+    width: 100%;
   }
 }
-@media only screen and (min-device-width: 321px) and (max-device-width: 360px) {
-  .stm-login-form {
-    width: auto;
-    margin-top: -70px;
-    margin-left: 25px;
-  }
-  .b {
-    margin-top: -20px;
-    margin-left: 15px;
-  }
-  .a {
-    margin-top: -20px;
+@media only screen and (min-device-width: 376px) and (max-device-width: 410px) {
+  .aa {
+    width: 100%;
   }
 }
-@media only screen and (min-device-width: 300px) and (max-device-width: 320px) {
-  .stm-login-form {
-    width: auto;
-    margin-top: -40px;
-    margin-left: 5px;
-  }
-  .b {
-    margin-top: -20px;
-    margin-left: 15px;
-  }
-  .a {
-    margin-top: -20px;
+@media only screen and (min-device-width: 320px) and (max-device-width: 374px) {
+  .aa {
+    width: 100%;
   }
 }
-@media only screen and (min-device-width: 0px) and (max-device-width: 299px) {
-  .stm-login-form {
-    width: auto;
-    margin-top: 2px;
+@media only screen and (min-device-width: 0px) and (max-device-width: 319px) {
+  .aa {
+    width: 100%;
   }
 }

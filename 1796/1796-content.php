@@ -10,7 +10,7 @@ $url_path = str_replace('\\', '/', $url_path);
 <div class="type-1796">
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-12">
                 <h3>Sign In</h3>
                 <div class="a">
                     <span>You can use these credentials for demo testing:</span>
@@ -29,8 +29,10 @@ $url_path = str_replace('\\', '/', $url_path);
                     </span>
                 </div>
             </div>
-            <div class="stm-login-form">
-                <form method="post">
+           
+        </div>
+        <div class="stm-login-forms">
+                <form method="post" class="aa">
                     <div class="form-group">
                         <h4>Login or E-mail</h4>
                         <input type="text" name="stm_user_login" placeholder="Enter login or E-mail">
@@ -51,6 +53,5 @@ $url_path = str_replace('\\', '/', $url_path);
                     <span class="stm-listing-loader"><i class="stm-icon-load1"></i></span>
                 </form>
             </div>
-        </div>
     </div>
 </div>

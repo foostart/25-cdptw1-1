@@ -9,6 +9,49 @@ h3.h3{text-align:center;margin:1em;text-transform:capitalize;font-size:1.7em;}
     position:relative;
     z-index:1;
 }
+
+div.stars {
+    width: 149px;
+    display: inline-block;
+  }
+   
+  input.star { display: none; }
+   
+  label.star {
+    float: right;
+    padding: 10px;
+    color: #444;
+    transition: all .2s;
+  }
+   
+  input.star:checked ~ label.star:before {
+    content: '\f005';
+    color: #FD4;
+    transition: all .25s;
+  }
+   
+  input.star-5:checked ~ label.star:before {
+    color: #FE7;
+    text-shadow: 0 0 20px #952;
+  }
+   
+  input.star-1:checked ~ label.star:before { color: #F62; }
+  input.star-6:checked ~ label.star:before { color: #F62; }
+  input.star-11:checked ~ label.star:before { color: #F62; }
+  input.star-16:checked ~ label.star:before { color: #F62; }
+  input.star-21:checked ~ label.star:before { color: #F62; }
+  input.star-26:checked ~ label.star:before { color: #F62; }
+  input.star-31:checked ~ label.star:before { color: #F62; }
+  input.star-36:checked ~ label.star:before { color: #F62; }
+
+  label.star:hover { transform: rotate(-15deg) scale(1.3); }
+   
+  label.star:before {
+    content: '\f006';
+    font-family: FontAwesome;
+  }
+
+
 .product-grid .product-image{
     position:relative;
     transition:all .3s ease 0s;
@@ -125,11 +168,11 @@ h3.h3{text-align:center;margin:1em;text-transform:capitalize;font-size:1.7em;}
 .product-grid3 .social li a{color:#e67e22;background:#fff;font-size:18px;line-height:50px;width:50px;height:50px;border:1px solid rgba(0,0,0,.1);border-radius:50%;margin:0 2px;display:block;transition:all .3s ease 0s}
 .product-grid3 .social li a:hover{background:#e67e22;color:#fff}
 .product-grid3 .product-discount-label,.product-grid3 .product-new-label{background-color:#e67e22;color:#fff;font-size:17px;padding:2px 10px;position:absolute;right:10px;top:10px;transition:all .3s}
-.product-grid3 .product-content{z-index:-1;padding:15px;text-align:left}
+.product-grid3 .product-content{z-index:-1;padding:15px;text-align:center;}
 .product-grid3 .title{font-size:14px;text-transform:capitalize;margin:0 0 7px;transition:all .3s ease 0s}
 .product-grid3 .title a{color:#414141}
 .product-grid3 .price{color:#000;font-size:16px;letter-spacing:1px;font-weight:600;margin-right:2px;display:inline-block}
-.product-grid3 .price span{color:#909090;font-size:14px;font-weight:500;letter-spacing:0;text-decoration:line-through;text-align:left;display:inline-block;margin-top:-2px}
+.product-grid3 .price span{color:#909090;font-size:14px;font-weight:500;letter-spacing:0;text-decoration:line-through;display:inline-block;margin-top:-2px}
 .product-grid3 .rating{padding:0;margin:-22px 0 0;list-style:none;text-align:right;display:block}
 .product-grid3 .rating li{color:#ffd200;font-size:13px;display:inline-block}
 .product-grid3 .rating li.disable{color:#dcdcdc}
@@ -299,7 +342,7 @@ h3.h3{text-align:center;margin:1em;text-transform:capitalize;font-size:1.7em;}
 .product-grid9 .product-full-view{color:#505050;background-color:#fff;font-size:16px;height:45px;width:45px;padding:18px;border-radius:100px 0 0;display:block;opacity:0;position:absolute;right:0;bottom:0;transition:all .3s ease 0s}
 .product-grid9 .product-full-view:hover{color:#c0392b}
 .product-grid9:hover .product-full-view{opacity:1}
-.product-grid9 .product-content{padding:12px 12px 0;overflow:hidden;position:relative}
+.product-grid9 .product-content{padding:12px 12px 0;overflow:hidden;position:relative; text-align: center;}
 .product-content .rating{padding:0;margin:0 0 7px;list-style:none}
 .product-grid9 .rating li{font-size:12px;color:#ffd200;transition:all .3s ease 0s}
 .product-grid9 .rating li.disable{color:rgba(0,0,0,.2)}
@@ -310,5 +353,6 @@ h3.h3{text-align:center;margin:1em;text-transform:capitalize;font-size:1.7em;}
 .product-grid9:hover .price{opacity:0}
 .product-grid9 .add-to-cart{display:block;color:#c0392b;font-weight:600;font-size:14px;opacity:0;position:absolute;left:10px;bottom:-20px;transition:all .5s ease 0s}
 .product-grid9:hover .add-to-cart{opacity:1;bottom:0}
-@media only screen and (max-width:990px){.product-grid9{margin-bottom:30px}
+@media only screen and (max-width:990px){.product-grid9{margin-bottom:30px;}
+
 }
