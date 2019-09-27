@@ -28,7 +28,6 @@ $less->compileFile('less/25.less', 'css/25.css');
         <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-        <!------ Include the above in your HEAD tag ---------->
         
         <?php
         if (!class_exists('lessc')) {

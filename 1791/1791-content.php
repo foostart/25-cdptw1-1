@@ -12,8 +12,31 @@ $url_path = str_replace('\\', '/', $url_path);
     <!-- Breads -->
     <div class="stm_breadcrumbs_unit heading-font ">
         <div class="type-1791">
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">1791</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Information</a></li>
+                        <li><a href="#">Sevice</a></li>
+                    </ul>
+                    <form class="navbar-form navbar-left" action="/action_page.php">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search" name="search">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </nav>
             <div class="container">
                 <div class="row">
+
                     <div class="navxtBreads">
                         <!-- Breadcrumb NavXT 6.1.0 -->
                         <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Motors Classified." href="#" class="home"><span property="name">Motors Classified</span></a>
@@ -58,80 +81,80 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </div>
 
                                                         <div class="stm-pricing-table heading-font" style="word-wrap: break-word;">
-                                                                    <div class="stm-pricing-table__title">Free</div>
-                                                                    <ul class="stm-pricing-table__periods">
-                                                                        <li class="stm-pricing-table__periods-item stm-pricing-table__periods-item_active" data-period="month">
-                                                                            <div class="stm-pricing-table__price">
-                                                                                <i class="fa fa-minus"></i>
-                                                                            </div>
-                                                                        </li>
-                                                                        <li class="stm-pricing-table__periods-item" data-period="yearly">
-                                                                            <div class="stm-pricing-table__price">
-                                                                                <i class="fa fa-minus"></i>
-                                                                            </div>
-                                                                        </li>
-                                                                    </ul>
-                                                                    <ul class="stm-pricing-table__features">
-                                                                        <li class="stm-pricing-table__feature">
-                                                                            <div class="stm-pricing-table__feature-label">Active Listing Quota</div>
-                                                                            <div class="stm-pricing-table__feature-value">
-                                                                                2 </div>
-                                                                        </li>
-                                                                        <li class="stm-pricing-table__feature">
-                                                                            <div class="stm-pricing-table__feature-label">Listing Period</div>
-                                                                            <div class="stm-pricing-table__feature-value">
-                                                                                7 days </div>
-                                                                        </li>
-                                                                        <li class="stm-pricing-table__feature">
-                                                                            <div class="stm-pricing-table__feature-label">Premium Listing Credit</div>
-                                                                            <div class="stm-pricing-table__feature-value">
-                                                                                <i class="fa fa-minus"></i>
-                                                                            </div>
-                                                                        </li>
-                                                                        <li class="stm-pricing-table__feature">
-                                                                            <div class="stm-pricing-table__feature-label">Free Classified Credit</div>
-                                                                            <div class="stm-pricing-table__feature-value">
-                                                                                <i class="fa fa-check"></i>
-                                                                            </div>
-                                                                        </li>
-                                                                        <li class="stm-pricing-table__feature">
-                                                                            <div class="stm-pricing-table__feature-label">Premium Classified Credit</div>
-                                                                            <div class="stm-pricing-table__feature-value">
-                                                                                0 </div>
-                                                                        </li>
-                                                                        <li class="stm-pricing-table__feature">
-                                                                            <div class="stm-pricing-table__feature-label">Article Quota</div>
-                                                                            <div class="stm-pricing-table__feature-value">
-                                                                                <i class="fa fa-minus"></i>
-                                                                            </div>
-                                                                        </li>
-                                                                        <li class="stm-pricing-table__feature">
-                                                                            <div class="stm-pricing-table__feature-label">Premium Article Credit</div>
-                                                                            <div class="stm-pricing-table__feature-value">
-                                                                                <i class="fa fa-check"></i>
-                                                                            </div>
-                                                                        </li>
-                                                                        <li class="stm-pricing-table__feature">
-                                                                            <div class="stm-pricing-table__feature-label">Multiple Selection</div>
-                                                                            <div class="stm-pricing-table__feature-value">
-                                                                                3 </div>
-                                                                        </li>
-                                                                        <li class="stm-pricing-table__feature">
-                                                                            <div class="stm-pricing-table__feature-label">Live Updates</div>
-                                                                            <div class="stm-pricing-table__feature-value">
-                                                                                No </div>
-                                                                        </li>
-                                                                    </ul>
-                                                                    <div class="stm-pricing-table__periods-link stm-pricing-table__periods-item_active" data-period="month">
-                                                                        <div class="stm-pricing-table__action">
-                                                                            <a href="#" class="button">Sign Up<i class="stm-icon stm-icon-arrow-right"></i></a>
-                                                                        </div>
+                                                            <div class="stm-pricing-table__title">Free</div>
+                                                            <ul class="stm-pricing-table__periods">
+                                                                <li class="stm-pricing-table__periods-item stm-pricing-table__periods-item_active" data-period="month">
+                                                                    <div class="stm-pricing-table__price">
+                                                                        <i class="fa fa-minus"></i>
                                                                     </div>
-                                                                    <div class="stm-pricing-table__periods-link" data-period="yearly">
-                                                                        <div class="stm-pricing-table__action">
-                                                                            <a href="#" class="button">Sign Up<i class="stm-icon stm-icon-arrow-right"></i></a>
-                                                                        </div>
+                                                                </li>
+                                                                <li class="stm-pricing-table__periods-item" data-period="yearly">
+                                                                    <div class="stm-pricing-table__price">
+                                                                        <i class="fa fa-minus"></i>
                                                                     </div>
+                                                                </li>
+                                                            </ul>
+                                                            <ul class="stm-pricing-table__features">
+                                                                <li class="stm-pricing-table__feature">
+                                                                    <div class="stm-pricing-table__feature-label">Active Listing Quota</div>
+                                                                    <div class="stm-pricing-table__feature-value">
+                                                                        2 </div>
+                                                                </li>
+                                                                <li class="stm-pricing-table__feature">
+                                                                    <div class="stm-pricing-table__feature-label">Listing Period</div>
+                                                                    <div class="stm-pricing-table__feature-value">
+                                                                        7 days </div>
+                                                                </li>
+                                                                <li class="stm-pricing-table__feature">
+                                                                    <div class="stm-pricing-table__feature-label">Premium Listing Credit</div>
+                                                                    <div class="stm-pricing-table__feature-value">
+                                                                        <i class="fa fa-minus"></i>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="stm-pricing-table__feature">
+                                                                    <div class="stm-pricing-table__feature-label">Free Classified Credit</div>
+                                                                    <div class="stm-pricing-table__feature-value">
+                                                                        <i class="fa fa-check"></i>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="stm-pricing-table__feature">
+                                                                    <div class="stm-pricing-table__feature-label">Premium Classified Credit</div>
+                                                                    <div class="stm-pricing-table__feature-value">
+                                                                        0 </div>
+                                                                </li>
+                                                                <li class="stm-pricing-table__feature">
+                                                                    <div class="stm-pricing-table__feature-label">Article Quota</div>
+                                                                    <div class="stm-pricing-table__feature-value">
+                                                                        <i class="fa fa-minus"></i>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="stm-pricing-table__feature">
+                                                                    <div class="stm-pricing-table__feature-label">Premium Article Credit</div>
+                                                                    <div class="stm-pricing-table__feature-value">
+                                                                        <i class="fa fa-check"></i>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="stm-pricing-table__feature">
+                                                                    <div class="stm-pricing-table__feature-label">Multiple Selection</div>
+                                                                    <div class="stm-pricing-table__feature-value">
+                                                                        3 </div>
+                                                                </li>
+                                                                <li class="stm-pricing-table__feature">
+                                                                    <div class="stm-pricing-table__feature-label">Live Updates</div>
+                                                                    <div class="stm-pricing-table__feature-value">
+                                                                        No </div>
+                                                                </li>
+                                                            </ul>
+                                                            <div class="stm-pricing-table__periods-link stm-pricing-table__periods-item_active" data-period="month">
+                                                                <div class="stm-pricing-table__action">
+                                                                    <a href="#" class="button">Sign Up<i class="stm-icon stm-icon-arrow-right"></i></a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="stm-pricing-table__periods-link" data-period="yearly">
+                                                                <div class="stm-pricing-table__action">
+                                                                    <a href="#" class="button">Sign Up<i class="stm-icon stm-icon-arrow-right"></i></a>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
