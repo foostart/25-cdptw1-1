@@ -14,10 +14,10 @@
 .stm-pricing__tables-col {
   float: left;
 }
-.stm-pricing_3 .stm-pricing__tables-col {
+.stm-pricing__tables-col {
   width: 33.33%;
 }
-.stm-pricing_3 .stm-pricing__tables-col .stm-pricing__tables-col-inner {
+.stm-pricing__tables-col .stm-pricing__tables-col-inner {
   padding: 0 15px 60px;
 }
 .stm-pricing_2 .stm-pricing__tables-col {
@@ -84,6 +84,11 @@
   line-height: 30px;
   font-size: 15px;
 }
+.stm-pricing-table__feature:hover {
+  font-size: 18px;
+  font-weight: bold;
+  transition-duration: 0.5s;
+}
 .stm-pricing-table__feature .fa.fa-check {
   color: #1bc744;
 }
@@ -127,43 +132,6 @@
 }
 .stm-pricing-table {
   box-shadow: 0 2px 5px rgba(0,0,0,0.25);
-}
-.stm-pricing-table .stm-pricing-table__action {
-  position: absolute;
-  bottom: -60px;
-  left: 0;
-  height: 60px;
-  width: 100%;
-  background-color: #fff;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.25);
-  visibility: hidden;
-  opacity: 0;
-}
-.stm-pricing-table .stm-pricing-table__action:after {
-  position: absolute;
-  content: '';
-  display: block;
-  height: 11px;
-  top: -6px;
-  left: 0;
-  right: 0;
-  background-color: #fff;
-  z-index: 20;
-}
-.stm-pricing-table .stm-pricing-table__action>a {
-  position: relative;
-  visibility: hidden;
-  display: inline-block;
-  z-index: 25;
-}
-.stm-pricing-table:hover .stm-pricing-table__action {
-  height: 60px;
-  bottom: -60px;
-  visibility: visible;
-  opacity: 1;
-}
-.stm-pricing-table:hover .stm-pricing-table__action>a {
-  visibility: visible;
 }
 .listing-main-color {
   color: #153e4d;
@@ -305,4 +273,7 @@
   position: relative;
   list-style: none;
   width: 80px;
+}
+.zev {
+  color: blue;
 }

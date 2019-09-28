@@ -11,9 +11,11 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class="container">
         <div class="row">
             <div class="navxtBreads">
-                <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Motors Classified." href="#" class="home"><span property="name">Motors Classified</span></a>
-                    <meta property="position" content="1"></span> &gt; <span property="itemListElement" typeof="ListItem"><span property="name">Pricing</span>
-                    <meta property="position" content="2"></span> </div>
+                <span class="zev" property="itemListElement" typeof="ListItem">Motors Classified</span>
+                <meta property="position" content="1"><span class="zev">
+                    < Pricing</span> <meta property="position" content="2">
+                </span>
+            </div>
 
             <div class="col-md-3">
                 <div class="stm-pricing__side-panel">
@@ -110,16 +112,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                     No </div>
                             </li>
                         </ul>
-                        <div class="stm-pricing-table__periods-link stm-pricing-table__periods-item_active" data-period="month">
-                            <div class="stm-pricing-table__action">
-                                <a href="#" class="button">Sign Up<i class="stm-icon stm-icon-arrow-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="stm-pricing-table__periods-link" data-period="yearly">
-                            <div class="stm-pricing-table__action">
-                                <a href="#" class="button">Sign Up<i class="stm-icon stm-icon-arrow-right"></i></a>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -193,16 +185,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </div>
                             </li>
                         </ul>
-                        <div class="stm-pricing-table__periods-link stm-pricing-table__periods-item_active" data-period="month">
-                            <div class="stm-pricing-table__action">
-                                <a href="#" class="button">Get Business<i class="stm-icon stm-icon-arrow-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="stm-pricing-table__periods-link" data-period="yearly">
-                            <div class="stm-pricing-table__action">
-                                <a href="#" class="button">Get Business<i class="stm-icon stm-icon-arrow-right"></i></a>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -277,14 +259,6 @@ $url_path = str_replace('\\', '/', $url_path);
                             </li>
                         </ul>
                         <div class="stm-pricing-table__periods-link stm-pricing-table__periods-item_active" data-period="month">
-                            <div class="stm-pricing-table__action">
-                                <a href="#" class="button">Get Enterprise<i class="stm-icon stm-icon-arrow-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="stm-pricing-table__periods-link" data-period="yearly">
-                            <div class="stm-pricing-table__action">
-                                <a href="#" class="button">Get Enterprise<i class="stm-icon stm-icon-arrow-right"></i></a>
-                            </div>
                         </div>
                     </div>
                 </div>
