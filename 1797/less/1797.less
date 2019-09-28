@@ -1,17 +1,9 @@
-@media screen and (min-width:414px) {
-    .site-heading{
-    margin-left: 73px !important;
-    }
-}
-
 .container {
     max-width: 1000px;
 }
 .col-lg-8 {
     width: 78.666667%;
 }
-
-
 
 header.masthead {
     margin-bottom: 50px;
@@ -39,6 +31,13 @@ header.masthead .site-heading .subheading {
     margin: 10px 0 0;
     margin-left: 135px; 
 }
+
+header.masthead .site-heading .subheading:hover {
+    transition-duration: 0.5s;
+    color: black;
+    font-weight: bold;
+}
+
 header.masthead .page-heading, header.masthead .post-heading, header.masthead .site-heading {
     padding: 200px 0;
 }
@@ -47,6 +46,13 @@ header.masthead .page-heading h1, header.masthead .site-heading h1 {
     font-size: 80px;
     margin-left: 140px;
 }
+
+header.masthead .page-heading h1, header.masthead .site-heading h1:hover {
+    color: blue;
+    transition-duration: 1.5s;
+    font-size: 85px;
+}
+
 h1{
     font-weight: 800;
 }
@@ -70,111 +76,89 @@ header.masthead .overlay {
     width: 100%;
 }
 
-@media only screen and (min-device-width : 415px) and (max-device-width : 768px) {
-    .stm-login-form {
-        width: auto;
-        margin-top: -180px;
+@media only screen and (min-width : 1024px) {
+    header.masthead .page-heading h1, header.masthead .site-heading h1 {
+        margin-left: -81px;
     }
-    .b {
-        margin-top: -20px;
-        margin-left: 15px;
-    }
-    .a {
-        margin-top: -20px;
+    header.masthead .site-heading .subheading {
+        margin-left: -70px;
     }
 }
 
-@media only screen and (min-device-width : 769px) and (max-device-width : 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
     .masthead {
-        width: 170%;
+        width: 100%;
     }
     header.masthead .page-heading h1, header.masthead .site-heading h1 {
         font-size: 80px;
-        margin-left: -170px;
-    }
-    header.masthead .site-heading .subheading {
-        margin-left: -170px;
-    }
-}
-
-@media only screen and (max-width : 1024px) {
-    header.masthead .page-heading h1, header.masthead .site-heading h1 {
-        margin-left: 100px;
-    }
-    header.masthead .site-heading .subheading {
-        margin-left: 100px;
-    }
-}
-
-@media only screen and (min-device-width : 412px) and (max-device-width : 414px) {
-    .masthead {
-        width: 170%;
-    }
-    header.masthead .page-heading h1, header.masthead .site-heading h1 {
-        margin-left: 70px;
-    }
-    header.masthead .site-heading .subheading {
-        margin-left: 85px;
-    }
-}
-
-@media only screen and (min-device-width : 376px) and (max-device-width : 411px) {
-    .masthead {
-        width: 160%;
-    }
-    header.masthead .page-heading h1, header.masthead .site-heading h1 {
-        margin-left: -120px;
-    }
-    header.masthead .site-heading .subheading {
-        margin-left: -110px;
-    }
-}
-
-@media only screen and (min-device-width : 361px) and (max-device-width : 375px) {
-    .masthead {
-        width: 170%;
-    }
-    header.masthead .page-heading h1, header.masthead .site-heading h1 {
-        font-size: 80px;
-        margin-left: -120px;
-    }
-    header.masthead .site-heading .subheading {
-        margin-left: -115px;
-    }
-}
-
-@media only screen and (min-device-width : 321px) and (max-device-width : 360px) {
-    .masthead {
-        width: 190%;
-    }
-    header.masthead .page-heading h1, header.masthead .site-heading h1 {
-        margin-left: -110px;
-    }
-    header.masthead .site-heading .subheading {
         margin-left: -100px;
     }
-}
-
-@media only screen and (min-device-width : 300px) and (max-device-width : 320px) {
-    .masthead {
-        width: 190%;
-    }
-    header.masthead .page-heading h1, header.masthead .site-heading h1 {
-        margin-left: -130px;
-    }
     header.masthead .site-heading .subheading {
-        margin-left: -120px;
+        margin-left: -90px;
     }
 }
 
-@media only screen and (min-device-width : 0px) and (max-device-width : 299px) {
+@media only screen and (min-width: 414px) and (max-width: 767px) {
     .masthead {
         width: 160%;
     }
     header.masthead .page-heading h1, header.masthead .site-heading h1 {
-        margin-left: -170px;
+        font-size: 80px;
+        margin-left: -118px;
     }
     header.masthead .site-heading .subheading {
-        margin-left: -160px;
+        margin-left: -98px;
+    }
+}
+
+@media only screen and (min-width: 411px) and (max-width: 413px) {
+    .masthead {
+        width: 144%;
+    }
+
+    header.masthead .page-heading h1, header.masthead .site-heading h1 {
+        margin-left: -132px;
+    }
+    header.masthead .site-heading .subheading {
+        margin-left: -118px;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 410px) {
+    .masthead {
+        width: 160%;
+    }
+    header.masthead .page-heading h1, header.masthead .site-heading h1 {
+        font-size: 80px;
+        margin-left: -131px;
+    }
+    header.masthead .site-heading .subheading {
+        margin-left: -124px;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 374px) {
+    .masthead {
+        width: 160%;
+    }
+    header.masthead .page-heading h1, header.masthead .site-heading h1 {
+        font-size: 80px;
+        margin-left: -131px;
+    }
+    header.masthead .site-heading .subheading {
+        margin-left: -124px;
+    }
+}
+
+@media only screen and (max-width: 359px) {
+    .masthead {
+        width: 160%;
+    }
+    header.masthead .page-heading h1, header.masthead .site-heading h1 {
+        font-size: 80px;
+        margin-left: -131px;
+    }
+    header.masthead .site-heading .subheading {
+        margin-left: -124px;
     }
 }

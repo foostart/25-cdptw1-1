@@ -924,7 +924,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                         <h3 class="title"><a href="#">Men's Shirt</a></h3>
                         <div class="price"> $10.20 </div>
-                        <a class="add-to-cart" href="">READ MORE</a>
+                        <a class="add-to-cart" href="">VIEW PRODUCTS</a>
                     </div>
                 </div>
             </div>

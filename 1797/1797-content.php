@@ -10,9 +10,9 @@ $url_path = str_replace('\\', '/', $url_path);
 
 <header class="masthead" style="background-image: url('img/home-bg.jpg');">
   <div class="type-1797">
-    <div class="overlay"></div>
     <div class="container">
       <div class="row">
+            <div class="overlay"></div>
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="site-heading">
             <h1>Clean Blog</h1>
