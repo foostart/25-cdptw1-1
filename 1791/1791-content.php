@@ -12,28 +12,6 @@ $url_path = str_replace('\\', '/', $url_path);
     <!-- Breads -->
     <div class="stm_breadcrumbs_unit heading-font ">
         <div class="type-1791">
-            <nav class="navbar navbar-inverse">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <a class="navbar-brand" href="#">1791</a>
-                    </div>
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#">Information</a></li>
-                        <li><a href="#">Sevice</a></li>
-                    </ul>
-                    <form class="navbar-form navbar-left" action="/action_page.php">
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Search" name="search">
-                            <div class="input-group-btn">
-                                <button class="btn btn-default" type="submit">
-                                    <i class="glyphicon glyphicon-search"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </nav>
             <div class="container">
                 <div class="row">
 
@@ -52,13 +30,13 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="stm-pricing stm-pricing_3" id="stm-pricing-5ca812bd4a5c8">
                                     <div class="stm-pricing__content clearfix">
                                         <div class="stm-pricing__side-panel">
-
-                                            <div class="stm-pricing__filters heading-font">
-                                                <ul>
-                                                    <li class="stm-pricing__filter stm-pricing__filter_active"><a data-period-filter="month" href="#">month</a></li>
-                                                    <li class="stm-pricing__filter "><a data-period-filter="yearly" href="#">yearly</a></li>
-                                                </ul>
+                                            <br>
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-primary">Month</button>
+                                                <button type="button" class="btn btn-primary">Yearly</button>
                                             </div>
+                                            <br>
+                                            <br>
                                             <ul class="stm-pricing__features heading-font" style="word-wrap: break-word;">
                                                 <li class="stm-pricing__feature motors-price-side">Renewal Fee</li>
                                                 <li class="stm-pricing__feature">Active Listing Quota</li>
