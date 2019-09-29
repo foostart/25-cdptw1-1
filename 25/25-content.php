@@ -19,8 +19,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="product-grid">
                     <div class="product-image">
                         <a href="#">
-                            <img class="pic-1" alt="a1" src="http://bestjquery.com/tutorial/product-grid/demo9/images/img-1.jpg">
-                            <img class="pic-2" alt="a2" src="http://bestjquery.com/tutorial/product-grid/demo9/images/img-2.jpg">
+                            <img class="pic-1" alt="a1" src="./images/1a.jpg">
+                            <img class="pic-2" alt="a2" src="./images/1b.jpg">
                         </a>
                         <ul class="social">
                             <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
@@ -50,8 +50,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="product-grid">
                     <div class="product-image">
                         <a href="#">
-                            <img class="pic-1" alt="b1" src="http://bestjquery.com/tutorial/product-grid/demo9/images/img-3.jpg">
-                            <img class="pic-2" alt="b2" src="http://bestjquery.com/tutorial/product-grid/demo9/images/img-4.jpg">
+                            <img class="pic-1" alt="b1" src="./images/2a.jpg">
+                            <img class="pic-2" alt="b2" src="./images/2b.jpg">
                         </a>
                         <ul class="social">
                             <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
@@ -81,8 +81,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="product-grid">
                     <div class="product-image">
                         <a href="#">
-                            <img class="pic-1" alt="c1" src="http://bestjquery.com/tutorial/product-grid/demo9/images/img-5.jpg">
-                            <img class="pic-2" alt="c2" src="http://bestjquery.com/tutorial/product-grid/demo9/images/img-6.jpg">
+                            <img class="pic-1" alt="c1" src="./images/3a.jpg">
+                            <img class="pic-2" alt="c2" src="./images/3b.jpg">
                         </a>
                         <ul class="social">
                             <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
@@ -112,8 +112,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="product-grid">
                     <div class="product-image">
                         <a href="#">
-                            <img class="pic-1" alt="d1" src="http://bestjquery.com/tutorial/product-grid/demo9/images/img-7.jpg">
-                            <img class="pic-2" alt="d2" src="http://bestjquery.com/tutorial/product-grid/demo9/images/img-8.jpg">
+                            <img class="pic-1" alt="d1" src="./images/4a.jpg">
+                            <img class="pic-2" alt="d2" src="./images/4b.jpg">
                         </a>
                         <ul class="social">
                             <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
@@ -238,8 +238,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="product-grid3">
                     <div class="product-image3">
                         <a href="#">
-                            <img class="pic-1" alt="i1" src="http://bestjquery.com/tutorial/product-grid/demo4/images/img-1.jpg">
-                            <img class="pic-2" alt="i2" src="http://bestjquery.com/tutorial/product-grid/demo4/images/img-2.jpg">
+                            <img class="pic-1" alt="i1" src="./images/9a.jpg">
+                            <img class="pic-2" alt="i2" src="./images/9b.jpg">
                         </a>
                         <ul class="social">
                             <li><a href="#"><i class="fa fa-shopping-bag"></i></a></li>
@@ -275,8 +275,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="product-grid3">
                     <div class="product-image3">
                         <a href="#">
-                            <img class="pic-1" alt="j1" src="http://bestjquery.com/tutorial/product-grid/demo4/images/img-3.jpg">
-                            <img class="pic-2" alt="j2" src="http://bestjquery.com/tutorial/product-grid/demo4/images/img-4.jpg">
+                            <img class="pic-1" alt="j1" src="./images/10a.jpg">
+                            <img class="pic-2" alt="j2" src="./images/10b.jpg">
                         </a>
                         <ul class="social">
                             <li><a href="#"><i class="fa fa-shopping-bag"></i></a></li>
@@ -310,8 +310,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="product-grid3">
                     <div class="product-image3">
                         <a href="#">
-                            <img class="pic-1" alt="k1" src="http://bestjquery.com/tutorial/product-grid/demo4/images/img-5.jpg">
-                            <img class="pic-2" alt="k2" src="http://bestjquery.com/tutorial/product-grid/demo4/images/img-6.jpg">
+                            <img class="pic-1" alt="k1" src="./images/11a.jpg">
+                            <img class="pic-2" alt="k2" src="./images/11b.jpg">
                         </a>
                         <ul class="social">
                             <li><a href="#"><i class="fa fa-shopping-bag"></i></a></li>
@@ -347,8 +347,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="product-grid3">
                     <div class="product-image3">
                         <a href="#">
-                            <img class="pic-1" alt="l1" src="http://bestjquery.com/tutorial/product-grid/demo4/images/img-7.jpg">
-                            <img class="pic-2" alt="l2" src="http://bestjquery.com/tutorial/product-grid/demo4/images/img-8.jpg">
+                            <img class="pic-1" alt="l1" src="./images/12a.jpg">
+                            <img class="pic-2" alt="l2" src="./images/12b.jpg">
                         </a>
                         <ul class="social">
                             <li><a href="#"><i class="fa fa-shopping-bag"></i></a></li>
@@ -391,8 +391,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="product-grid4">
                     <div class="product-image4">
                         <a href="#">
-                            <img class="pic-1" alt="m1" src="http://bestjquery.com/tutorial/product-grid/demo5/images/img-1.jpg">
-                            <img class="pic-2" alt="m2" src="http://bestjquery.com/tutorial/product-grid/demo5/images/img-2.jpg">
+                            <img class="pic-1" alt="m1" src="./images/13a.jpg">
+                            <img class="pic-2" alt="m2" src="./images/13b.jpg">
                         </a>
                         <ul class="social">
                             <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
@@ -416,8 +416,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="product-grid4">
                     <div class="product-image4">
                         <a href="#">
-                            <img class="pic-1" alt="n1" src="http://bestjquery.com/tutorial/product-grid/demo5/images/img-3.jpg">
-                            <img class="pic-2" alt="n2" src="http://bestjquery.com/tutorial/product-grid/demo5/images/img-4.jpg">
+                            <img class="pic-1" alt="n1" src="./images/14a.jpg">
+                            <img class="pic-2" alt="n2" src="./images/14b.jpg">
                         </a>
                         <ul class="social">
                             <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
@@ -440,8 +440,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="product-grid4">
                     <div class="product-image4">
                         <a href="#">
-                            <img class="pic-1" alt="o1" src="http://bestjquery.com/tutorial/product-grid/demo5/images/img-5.jpg">
-                            <img class="pic-2" alt="o2" src="http://bestjquery.com/tutorial/product-grid/demo5/images/img-6.jpg">
+                            <img class="pic-1" alt="o1" src="./images/15a.jpg">
+                            <img class="pic-2" alt="o2" src="./images/15b.jpg">
                         </a>
                         <ul class="social">
                             <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
@@ -465,8 +465,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="product-grid4">
                     <div class="product-image4">
                         <a href="#">
-                            <img class="pic-1" alt="p1" src="http://bestjquery.com/tutorial/product-grid/demo5/images/img-7.jpg">
-                            <img class="pic-2" alt="p2" src="http://bestjquery.com/tutorial/product-grid/demo5/images/img-8.jpg">
+                            <img class="pic-1" alt="p1" src="./images/16a.jpg">
+                            <img class="pic-2" alt="p2" src="./images/16b.jpg">
                         </a>
                         <ul class="social">
                             <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
@@ -497,8 +497,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="product-grid5">
                     <div class="product-image5">
                         <a href="#">
-                            <img class="pic-1" alt="q1" src="http://bestjquery.com/tutorial/product-grid/demo11/images/img-1.jpg">
-                            <img class="pic-2" alt="q2" src="http://bestjquery.com/tutorial/product-grid/demo11/images/img-2.jpg">
+                            <img class="pic-1" alt="q1" src="./images/17a.jpg">
+                            <img class="pic-2" alt="q2" src="./images/17b.jpg">
                         </a>
                         <ul class="social">
                             <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
@@ -517,8 +517,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="product-grid5">
                     <div class="product-image5">
                         <a href="#">
-                            <img class="pic-1" alt="r1" src="http://bestjquery.com/tutorial/product-grid/demo11/images/img-3.jpg">
-                            <img class="pic-2" alt="r2" src="http://bestjquery.com/tutorial/product-grid/demo11/images/img-4.jpg">
+                            <img class="pic-1" alt="r1" src="./images/18a.jpg">
+                            <img class="pic-2" alt="r2" src="./images/18b.jpg">
                         </a>
                         <ul class="social">
                             <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
@@ -537,8 +537,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="product-grid5">
                     <div class="product-image5">
                         <a href="#">
-                            <img class="pic-1" alt="s1" src="http://bestjquery.com/tutorial/product-grid/demo11/images/img-5.jpg">
-                            <img class="pic-2" alt="s2" src="http://bestjquery.com/tutorial/product-grid/demo11/images/img-6.jpg">
+                            <img class="pic-1" alt="s1" src="./images/19a.jpg">
+                            <img class="pic-2" alt="s2" src="./images/19b.jpg">
                         </a>
                         <ul class="social">
                             <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
@@ -557,8 +557,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="product-grid5">
                     <div class="product-image5">
                         <a href="#">
-                            <img class="pic-1" alt="t1" src="http://bestjquery.com/tutorial/product-grid/demo11/images/img-7.jpg">
-                            <img class="pic-2" alt="t2" src="http://bestjquery.com/tutorial/product-grid/demo11/images/img-8.jpg">
+                            <img class="pic-1" alt="t1" src="./images/20a.jpg">
+                            <img class="pic-2" alt="t2" src="./images/20b.jpg">
                         </a>
                         <ul class="social">
                             <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
@@ -584,7 +584,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="product-grid6">
                     <div class="product-image6">
                         <a href="#">
-                            <img class="pic-1" alt="aa" src="http://bestjquery.com/tutorial/product-grid/demo10/images/img-1.jpg">
+                            <img class="pic-1" alt="aa" src="./images/21.jpg">
                         </a>
                     </div>
                     <div class="product-content">
@@ -604,7 +604,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="product-grid6">
                     <div class="product-image6">
                         <a href="#">
-                            <img class="pic-1" alt="bb" src="http://bestjquery.com/tutorial/product-grid/demo10/images/img-2.jpg">
+                            <img class="pic-1" alt="bb" src="./images/22.jpg">
                         </a>
                     </div>
                     <div class="product-content">
@@ -624,7 +624,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="product-grid6">
                     <div class="product-image6">
                         <a href="#">
-                            <img class="pic-1" alt="cc" src="http://bestjquery.com/tutorial/product-grid/demo10/images/img-3.jpg">
+                            <img class="pic-1" alt="cc" src="./images/23.jpg">
                         </a>
                     </div>
                     <div class="product-content">
@@ -644,7 +644,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="product-grid6">
                     <div class="product-image6">
                         <a href="#">
-                            <img class="pic-1" alt="dd" src="http://bestjquery.com/tutorial/product-grid/demo10/images/img-4.jpg">
+                            <img class="pic-1" alt="dd" src="./images/24.jpg">
                         </a>
                     </div>
                     <div class="product-content">
@@ -671,8 +671,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="product-grid7">
                     <div class="product-image7">
                         <a href="#">
-                            <img class="pic-1" alt="u1" src="http://bestjquery.com/tutorial/product-grid/demo8/images/img-1.jpg">
-                            <img class="pic-2" alt="u2" src="http://bestjquery.com/tutorial/product-grid/demo8/images/img-2.jpg">
+                            <img class="pic-1" alt="u1" src="./images/25a.jpg">
+                            <img class="pic-2" alt="u2" src="./images/25b.jpg">
                         </a>
                         <ul class="social">
                             <li><a href="" class="fa fa-search"></a></li>
@@ -700,8 +700,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="product-grid7">
                     <div class="product-image7">
                         <a href="#">
-                            <img class="pic-1" alt="v1" src="http://bestjquery.com/tutorial/product-grid/demo8/images/img-3.jpg">
-                            <img class="pic-2" alt="v2" src="http://bestjquery.com/tutorial/product-grid/demo8/images/img-4.jpg">
+                            <img class="pic-1" alt="v1" src="./images/26a.jpg">
+                            <img class="pic-2" alt="v2" src="./images/26b.jpg">
                         </a>
                         <ul class="social">
                             <li><a href="" class="fa fa-search"></a></li>
@@ -726,8 +726,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="product-grid7">
                     <div class="product-image7">
                         <a href="#">
-                            <img class="pic-1" alt="w1" src="http://bestjquery.com/tutorial/product-grid/demo8/images/img-5.jpg">
-                            <img class="pic-2" alt="w2" src="http://bestjquery.com/tutorial/product-grid/demo8/images/img-6.jpg">
+                            <img class="pic-1" alt="w1" src="./images/27a.jpg">
+                            <img class="pic-2" alt="w2" src="./images/27b.jpg">
                         </a>
                         <ul class="social">
                             <li><a href="" class="fa fa-search"></a></li>
@@ -755,8 +755,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="product-grid7">
                     <div class="product-image7">
                         <a href="#">
-                            <img class="pic-1" alt="x1" src="http://bestjquery.com/tutorial/product-grid/demo8/images/img-7.jpg">
-                            <img class="pic-2" alt="x2" src="http://bestjquery.com/tutorial/product-grid/demo8/images/img-8.jpg">
+                            <img class="pic-1" alt="x1" src="./images/28a.jpg">
+                            <img class="pic-2" alt="x2" src="./images/28b.jpg">
                         </a>
                         <ul class="social">
                             <li><a href="" class="fa fa-search"></a></li>
@@ -791,8 +791,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="product-grid8">
                     <div class="product-image8">
                         <a href="#">
-                            <img class="pic-1" alt="y1" src="http://bestjquery.com/tutorial/product-grid/demo7/images/img-1.jpg">
-                            <img class="pic-2" alt="y2" src="http://bestjquery.com/tutorial/product-grid/demo7/images/img-2.jpg">
+                            <img class="pic-1" alt="y1" src="./images/29a.jpg">
+                            <img class="pic-2" alt="y2" src="./images/29b.jpg">
                         </a>
                         <ul class="social">
                             <li><a href="" class="fa fa-search"></a></li>
@@ -815,8 +815,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="product-grid8">
                     <div class="product-image8">
                         <a href="#">
-                            <img class="pic-1" alt="z1" src="http://bestjquery.com/tutorial/product-grid/demo7/images/img-3.jpg">
-                            <img class="pic-2" alt="z2" src="http://bestjquery.com/tutorial/product-grid/demo7/images/img-4.jpg">
+                            <img class="pic-1" alt="z1" src="./images/30a.jpg">
+                            <img class="pic-2" alt="z2" src="./images/30b.jpg">
                         </a>
                         <ul class="social">
                             <li><a href="" class="fa fa-search"></a></li>
@@ -839,8 +839,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="product-grid8">
                     <div class="product-image8">
                         <a href="#">
-                            <img class="pic-1" alt="ff1" src="http://bestjquery.com/tutorial/product-grid/demo7/images/img-5.jpg">
-                            <img class="pic-2" alt="ff2" src="http://bestjquery.com/tutorial/product-grid/demo7/images/img-6.jpg">
+                            <img class="pic-1" alt="ff1" src="./images/31a.jpg">
+                            <img class="pic-2" alt="ff2" src="./images/31b.jpg">
                         </a>
                         <ul class="social">
                             <li><a href="" class="fa fa-search"></a></li>
@@ -870,8 +870,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="product-grid9">
                     <div class="product-image9">
                         <a href="#">
-                            <img class="pic-1" alt="gg1" src="http://bestjquery.com/tutorial/product-grid/demo6/images/img-1.jpg">
-                            <img class="pic-2" alt="gg2" src="http://bestjquery.com/tutorial/product-grid/demo6/images/img-2.jpg">
+                            <img class="pic-1" alt="gg1" src="./images/32a.jpg">
+                            <img class="pic-2" alt="gg2" src="./images/32b.jpg">
                         </a>
                         <a href="#" class="fa fa-search product-full-view"></a>
                     </div>
@@ -901,8 +901,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="product-grid9">
                     <div class="product-image9">
                         <a href="#">
-                            <img class="pic-1" alt="hh1" src="http://bestjquery.com/tutorial/product-grid/demo6/images/img-3.jpg">
-                            <img class="pic-2" alt="hh2" src="http://bestjquery.com/tutorial/product-grid/demo6/images/img-4.jpg">
+                            <img class="pic-1" alt="hh1" src="./images/33a.jpg">
+                            <img class="pic-2" alt="hh2" src="./images/33b.jpg">
                         </a>
                         <a href="#" class="fa fa-search product-full-view"></a>
                     </div>
@@ -932,8 +932,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="product-grid9">
                     <div class="product-image9">
                         <a href="#">
-                            <img class="pic-1" alt="ii1" src="http://bestjquery.com/tutorial/product-grid/demo6/images/img-5.jpg">
-                            <img class="pic-2" alt="ii2" src="http://bestjquery.com/tutorial/product-grid/demo6/images/img-6.jpg">
+                            <img class="pic-1" alt="ii1" src="./images/34a.jpg">
+                            <img class="pic-2" alt="ii2" src="./images/34b.jpg">
                         </a>
                         <a href="#" class="fa fa-search product-full-view"></a>
                     </div>
@@ -963,8 +963,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="product-grid9">
                     <div class="product-image9">
                         <a href="#">
-                            <img class="pic-1" alt="jj1" src="http://bestjquery.com/tutorial/product-grid/demo6/images/img-7.jpg">
-                            <img class="pic-2" alt="jj2" src="http://bestjquery.com/tutorial/product-grid/demo6/images/img-8.jpg">
+                            <img class="pic-1" alt="jj1" src="./images/35a.jpg">
+                            <img class="pic-2" alt="jj2" src="./images/35b.jpg">
                         </a>
                         <a href="#" class="fa fa-search product-full-view"></a>
                     </div>
