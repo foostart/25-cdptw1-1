@@ -43,16 +43,10 @@
 .stm-pricing-table__periods {
   position: relative;
   padding: 0;
-  margin-bottom: 0;
   list-style: none;
-}
-.stm-pricing-table__periods li {
-  margin-bottom: 0;
 }
 .stm-pricing-table__periods-item {
   display: none;
-  -webkit-transition: opacity;
-  transition: opacity;
 }
 .stm-pricing-table__periods-item_active {
   display: block;
@@ -174,29 +168,6 @@
   height: 100%;
   z-index: -1;
 }
-.stm-pricing__filters a {
-  display: block;
-  line-height: 30px;
-  padding: 3px 20px;
-  color: #153e4d;
-}
-.stm-pricing__filters a:focus,
-.stm-pricing__filters a:hover {
-  text-decoration: none;
-}
-.stm-pricing__features {
-  padding-left: 0;
-  list-style: none;
-  margin-bottom: 0;
-}
-.stm-pricing__features li {
-  padding: 14px 20px;
-  margin-bottom: 0;
-  font-size: 14px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
 .stm-pricing__features li:hover {
   background: #153e4d;
   color: #fff;
@@ -258,6 +229,7 @@
   list-style: none;
   width: 80px;
   border: 2px solid #153e4d;
+  overflow: auto;
 }
 .btn-primary:hover {
   color: #fff;
@@ -284,4 +256,19 @@
 }
 .zev {
   color: blue;
+  margin-left: 15px;
+}
+.stm-pricing__feature {
+  background: #fff;
+  color: black;
+  width: 100%;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+.stm-pricing__feature:hover {
+  background: #153e4d;
+  color: #fff;
+}
+.the {
+  margin-top: 24px;
 }

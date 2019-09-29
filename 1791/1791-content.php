@@ -11,12 +11,8 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class="container">
         <div class="row">
             <div class="navxtBreads">
-                <span class="zev" property="itemListElement" typeof="ListItem">Motors Classified</span>
-                <meta property="position" content="1"><span class="zev">
-                    < Pricing</span> <meta property="position" content="2">
-                </span>
+                <span class="zev" property="itemListElement" typeof="ListItem">Motors Classified &gt; Pricing </span>
             </div>
-
             <div class="col-md-3">
                 <div class="stm-pricing__side-panel">
                     <br>
@@ -26,18 +22,18 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                     <br>
                     <br>
-                    <ul class="stm-pricing__features heading-font">
-                        <li class="stm-pricing__feature motors-price-side">Renewal Fee</li>
-                        <li class="stm-pricing__feature">Active Listing Quota</li>
-                        <li class="stm-pricing__feature">Listing Period</li>
-                        <li class="stm-pricing__feature">Premium Listing Credit</li>
-                        <li class="stm-pricing__feature">Free Classified Credit</li>
-                        <li class="stm-pricing__feature">Premium Classified Credit</li>
-                        <li class="stm-pricing__feature">Article Quota</li>
-                        <li class="stm-pricing__feature">Premium Article Credit</li>
-                        <li class="stm-pricing__feature">Multiple Selection</li>
-                        <li class="stm-pricing__feature">Live Updates</li>
-                    </ul>
+                    <div class="the">
+                        <button class="stm-pricing__feature">Renewal Fee</button>
+                        <button class="stm-pricing__feature">Active Listing Quota</button>
+                        <button class="stm-pricing__feature">Listing Period</button>
+                        <button class="stm-pricing__feature">Premium Listing Credit</button>
+                        <button class="stm-pricing__feature">Free Classified Credit</button>
+                        <button class="stm-pricing__feature">Premium Classified Credit</button>
+                        <button class="stm-pricing__feature">Article Quota</button>
+                        <button class="stm-pricing__feature">Premium Article Credit</button>
+                        <button class="stm-pricing__feature">Multiple Selection</button>
+                        <button class="stm-pricing__feature">Live Updates</button>
+                    </div>
                 </div>
             </div>
 
@@ -63,53 +59,39 @@ $url_path = str_replace('\\', '/', $url_path);
                         </ul>
                         <ul class="stm-pricing-table__features">
                             <li class="stm-pricing-table__feature">
-                                <div class="stm-pricing-table__feature-label">Active Listing Quota</div>
-                                <div class="stm-pricing-table__feature-value">
-                                    2 </div>
+                                <div class="stm-pricing-table__feature-value">2</div>
                             </li>
                             <li class="stm-pricing-table__feature">
-                                <div class="stm-pricing-table__feature-label">Listing Period</div>
-                                <div class="stm-pricing-table__feature-value">
-                                    7 days </div>
+                                <div class="stm-pricing-table__feature-value">7 days </div>
                             </li>
                             <li class="stm-pricing-table__feature">
-                                <div class="stm-pricing-table__feature-label">Premium Listing Credit</div>
                                 <div class="stm-pricing-table__feature-value">
                                     <i class="fa fa-minus"></i>
                                 </div>
                             </li>
                             <li class="stm-pricing-table__feature">
-                                <div class="stm-pricing-table__feature-label">Free Classified Credit</div>
                                 <div class="stm-pricing-table__feature-value">
                                     <i class="fa fa-check"></i>
                                 </div>
                             </li>
                             <li class="stm-pricing-table__feature">
-                                <div class="stm-pricing-table__feature-label">Premium Classified Credit</div>
-                                <div class="stm-pricing-table__feature-value">
-                                    0 </div>
+                                <div class="stm-pricing-table__feature-value">0</div>
                             </li>
                             <li class="stm-pricing-table__feature">
-                                <div class="stm-pricing-table__feature-label">Article Quota</div>
                                 <div class="stm-pricing-table__feature-value">
                                     <i class="fa fa-minus"></i>
                                 </div>
                             </li>
                             <li class="stm-pricing-table__feature">
-                                <div class="stm-pricing-table__feature-label">Premium Article Credit</div>
                                 <div class="stm-pricing-table__feature-value">
                                     <i class="fa fa-check"></i>
                                 </div>
                             </li>
                             <li class="stm-pricing-table__feature">
-                                <div class="stm-pricing-table__feature-label">Multiple Selection</div>
-                                <div class="stm-pricing-table__feature-value">
-                                    3 </div>
+                                <div class="stm-pricing-table__feature-value">3</div>
                             </li>
                             <li class="stm-pricing-table__feature">
-                                <div class="stm-pricing-table__feature-label">Live Updates</div>
-                                <div class="stm-pricing-table__feature-value">
-                                    No </div>
+                                <div class="stm-pricing-table__feature-value">No</div>
                             </li>
                         </ul>
                     </div>
