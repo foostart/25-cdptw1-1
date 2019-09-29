@@ -22,7 +22,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <br>
                     <div class="btn-group">
                         <button type="button" class="btn btn-primary">Month</button>
-                        <button type="button" class="btn btn-primary">Yearly</button>
+                        <button type="button" class="btn btn-primarys">Yearly</button>
                     </div>
                     <br>
                     <br>

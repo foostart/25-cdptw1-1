@@ -12,16 +12,17 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="row">
             <div class="col-md-12">
                 <h3>Sign In</h3>
-                <div class="a">
+                <div class="ax">
                     <span>You can use these credentials for demo testing:</span>
                 </div>
-                <div class="b">
+                <div class="a">
                     <span>
                         <b>Dealer:</b><br>
                         dealer<br>
                         dealer
                     </span>
-
+                </div>
+                <div class="b">
                     <span>
                         <b>User:</b><br>
                         demo<br>
@@ -29,29 +30,29 @@ $url_path = str_replace('\\', '/', $url_path);
                     </span>
                 </div>
             </div>
-           
+
         </div>
         <div class="stm-login-forms">
-                <form method="post" class="aa">
-                    <div class="form-group">
-                        <h4>Login or E-mail</h4>
-                        <input type="text" name="stm_user_login" placeholder="Enter login or E-mail">
+            <form method="post" class="aa">
+                <div class="form-group">
+                    <h4>Login or E-mail</h4>
+                    <input type="text" name="stm_user_login" placeholder="Enter login or E-mail">
+                </div>
+                <div class="form-group">
+                    <h4>Password</h4>
+                    <input type="password" name="stm_user_password" placeholder="Enter password">
+                </div>
+                <div class="form-group form-checker">
+                    <label>
+                        <span class="checker"><input type="checkbox" name="stm_remember_me">Remember me</span>
+                    </label>
+                    <div class="stm-forgot-password">
+                        <a href="#">Forgot Password</a>
                     </div>
-                    <div class="form-group">
-                        <h4>Password</h4>
-                        <input type="password" name="stm_user_password" placeholder="Enter password">
-                    </div>
-                    <div class="form-group form-checker">
-                        <label>
-                            <span class="checker"><input type="checkbox" name="stm_remember_me">Remember me</span>
-                        </label>
-                        <div class="stm-forgot-password">
-                            <a href="#">Forgot Password</a>
-                        </div>
-                    </div>
-                    <input class="box" type="submit" value="Login">
-                    <span class="stm-listing-loader"><i class="stm-icon-load1"></i></span>
-                </form>
-            </div>
+                </div>
+                <input class="box" type="submit" value="Login">
+                <span class="stm-listing-loader"><i class="stm-icon-load1"></i></span>
+            </form>
+        </div>
     </div>
 </div>
