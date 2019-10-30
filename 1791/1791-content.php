@@ -7,240 +7,165 @@ preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
+
 <div class="type-1791">
     <div class="container">
-        <div class="row">
-            <div class="navxtBreads">
-                <span class="zev" property="itemListElement" typeof="ListItem">Motors Classified &gt; Pricing </span>
-            </div>
-            <div class="col-md-3">
-                <div class="stm-pricing__side-panel">
-                    <br>
-                    <div class="btn-group">
-                        <button type="button" class="btn btn-primary">Month</button>
-                        <button type="button" class="btn btn-primarys">Yearly</button>
+        <div class="check">
+        </div>
+        <div class="tab-content">
+            <ul class="nav nav-tabs">
+                <li class="nut"><a data-toggle="tab" href="#home">Month</a></li>
+                <li class="nut"><a data-toggle="tab" href="#menu1">Yearly</a></li>
+            </ul>
+            <div id="home" class="tab-pane fade in active">
+                <div class="row">
+                    <div class="col-md-3">
+
+                        <ul class="rene">
+                            <li class="box moto">Renewal Fee</li>
+                            <li class="box">Active Listing Quota</li>
+                            <li class="box">Listing Period</li>
+                            <li class="box">Premium Listing Credit</li>
+                            <li class="box">Free Classified Credit</li>
+                            <li class="box">Premium Classified Credit</li>
+                            <li class="box">Article Quota</li>
+                            <li class="box">Premium Article Credit</li>
+                            <li class="box">Multiple Selection</li>
+                            <li class="box">Live Updates</li>
+                        </ul>
                     </div>
-                    <br>
-                    <br>
-                    <div class="the">
-                        <button class="stm-pricing__feature">Renewal Fee</button>
-                        <button class="stm-pricing__feature">Active Listing Quota</button>
-                        <button class="stm-pricing__feature">Listing Period</button>
-                        <button class="stm-pricing__feature">Premium Listing Credit</button>
-                        <button class="stm-pricing__feature">Free Classified Credit</button>
-                        <button class="stm-pricing__feature">Premium Classified Credit</button>
-                        <button class="stm-pricing__feature">Article Quota</button>
-                        <button class="stm-pricing__feature">Premium Article Credit</button>
-                        <button class="stm-pricing__feature">Multiple Selection</button>
-                        <button class="stm-pricing__feature">Live Updates</button>
+                    <div class="col-md-3">
+                        <span class="person">Personal</span>
+                        <div class="columns">
+                            <ul class="price">
+                                <li class="cls">FREE</li>
+                                <li class="header"><i class="fa fa-minus"></i></li>
+                                <li>2</li>
+                                <li class="grey">7 days</li>
+                                <li><i class="fa fa-minus"></i></li>
+                                <li class="grey"><i class="fa fa-check"></i></li>
+                                <li>0</li>
+                                <li class="grey"><i class="fa fa-minus"></i></li>
+                                <li><i class="fa fa-check"></i></li>
+                                <li class="grey">3</li>
+                                <li>NO</li>
+                                <li class="sign"><a href="#" class="button">Sign Up</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <span class="person">Leader</span>
+                        <div class="columns">
+                            <ul class="price">
+                                <li class="cls">BUSINESS</li>
+                                <li class="header">$9/month</li>
+                                <li>2</li>
+                                <li class="grey">Unlimited</li>
+                                <li><i class="fa fa-minus"></i></li>
+                                <li class="grey"><i class="fa fa-check"></i></li>
+                                <li>100</li>
+                                <li class="grey"><i class="fa fa-check"></i></li>
+                                <li><i class="fa fa-check"></i></li>
+                                <li class="grey">10</li>
+                                <li>NO</li>
+                                <li class="sign"><a href="#" class="button">Sign Up</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <span class="person">Personal</span>
+                        <span class="leader">Leader</span>
+                        <div class="columns">
+                            <ul class="price">
+                                <li class="cls">ENTERPRISE</li>
+                                <li class="header">$15/month</li>
+                                <li>2</li>
+                                <li class="grey">7 days</li>
+                                <li><i class="fa fa-minus"></i></li>
+                                <li class="grey"><i class="fa fa-check"></i></li>
+                                <li>0</li>
+                                <li class="grey"><i class="fa fa-check"></i></li>
+                                <li><i class="fa fa-check"></i></li>
+                                <li class="grey">3</li>
+                                <li>NO</li>
+                                <li class="sign"><a href="#" class="button">Sign Up</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <div class="col-md-3">
-                <div class="stm-pricing__tables-col-inner">
-                    <div class="stm_pricing_table_col_labels heading-font clearfix">
-                        <button type="button" class="stm_pricing_table_single_label">Personal</button>
-                    </div>
-
-                    <div class="stm-pricing-table heading-font">
-                        <div class="stm-pricing-table__title">Free</div>
-                        <ul class="stm-pricing-table__periods">
-                            <li class="stm-pricing-table__periods-item stm-pricing-table__periods-item_active" data-period="month">
-                                <div class="stm-pricing-table__price">
-                                    <i class="fa fa-minus"></i>
-                                </div>
-                            </li>
-                            <li class="stm-pricing-table__periods-item" data-period="yearly">
-                                <div class="stm-pricing-table__price">
-                                    <i class="fa fa-minus"></i>
-                                </div>
-                            </li>
-                        </ul>
-                        <ul class="stm-pricing-table__features">
-                            <li class="stm-pricing-table__feature">
-                                <div class="stm-pricing-table__feature-value">2</div>
-                            </li>
-                            <li class="stm-pricing-table__feature">
-                                <div class="stm-pricing-table__feature-value">7 days </div>
-                            </li>
-                            <li class="stm-pricing-table__feature">
-                                <div class="stm-pricing-table__feature-value">
-                                    <i class="fa fa-minus"></i>
-                                </div>
-                            </li>
-                            <li class="stm-pricing-table__feature">
-                                <div class="stm-pricing-table__feature-value">
-                                    <i class="fa fa-check"></i>
-                                </div>
-                            </li>
-                            <li class="stm-pricing-table__feature">
-                                <div class="stm-pricing-table__feature-value">0</div>
-                            </li>
-                            <li class="stm-pricing-table__feature">
-                                <div class="stm-pricing-table__feature-value">
-                                    <i class="fa fa-minus"></i>
-                                </div>
-                            </li>
-                            <li class="stm-pricing-table__feature">
-                                <div class="stm-pricing-table__feature-value">
-                                    <i class="fa fa-check"></i>
-                                </div>
-                            </li>
-                            <li class="stm-pricing-table__feature">
-                                <div class="stm-pricing-table__feature-value">3</div>
-                            </li>
-                            <li class="stm-pricing-table__feature">
-                                <div class="stm-pricing-table__feature-value">No</div>
-                            </li>
+            <div id="menu1" class="tab-pane fade">
+                <div class="row">
+                    <div class="col-md-3">
+                        <ul class="rene">
+                            <li class="box moto">Active Listing Quota</li>
+                            <li class="box">Renewal Fee</li>
+                            <li class="box">Listing Period</li>
+                            <li class="box">Premium Listing Credit</li>
+                            <li class="box">Free Classified Credit</li>
+                            <li class="box">Premium Classified Credit</li>
+                            <li class="box">Article Quota</li>
+                            <li class="box">Premium Article Credit</li>
+                            <li class="box">Multiple Selection</li>
+                            <li class="box">Live Updates</li>
                         </ul>
                     </div>
-                </div>
-            </div>
-
-            <div class="col-md-3">
-                <div class="stm-pricing__tables-col-inner">
-                    <div class="stm_pricing_table_col_labels heading-font clearfix">
-                        <button type="button" class="stm_pricing_table_single_label">Dealer</button>
+                    <div class="col-md-3">
+                        <span class="person">Leader</span>
+                        <div class="columns">
+                            <ul class="price">
+                                <li class="cls">BUSINESS</li>
+                                <li class="header">$9/month</li>
+                                <li>2</li>
+                                <li class="grey">7 days</li>
+                                <li><i class="fa fa-minus"></i></li>
+                                <li class="grey"><i class="fa fa-check"></i></li>
+                                <li>0</li>
+                                <li class="grey"><i class="fa fa-check"></i></li>
+                                <li><i class="fa fa-check"></i></li>
+                                <li class="grey">3</li>
+                                <li>NO</li>
+                                <li class="sign"><a href="#" class="button">Sign Up</a></li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="stm-pricing-table heading-font">
-                        <div class="stm-pricing-table__title">Business</div>
-                        <ul class="stm-pricing-table__periods">
-                            <li class="stm-pricing-table__periods-item stm-pricing-table__periods-item_active" data-period="month">
-                                <div class="stm-pricing-table__price">
-                                    $9/month </div>
-                            </li>
-                            <li class="stm-pricing-table__periods-item" data-period="yearly">
-                                <div class="stm-pricing-table__price">
-                                    $8/month </div>
-                            </li>
-                        </ul>
-                        <ul class="stm-pricing-table__features">
-                            <li class="stm-pricing-table__feature">
-                                <div class="stm-pricing-table__feature-label">Active Listing Quota</div>
-                                <div class="stm-pricing-table__feature-value">
-                                    60 </div>
-                            </li>
-                            <li class="stm-pricing-table__feature">
-                                <div class="stm-pricing-table__feature-label">Listing Period</div>
-                                <div class="stm-pricing-table__feature-value">
-                                    Unlimited </div>
-                            </li>
-                            <li class="stm-pricing-table__feature">
-                                <div class="stm-pricing-table__feature-label">Premium Listing Credit</div>
-                                <div class="stm-pricing-table__feature-value">
-                                    <i class="fa fa-check"></i>
-                                </div>
-                            </li>
-                            <li class="stm-pricing-table__feature">
-                                <div class="stm-pricing-table__feature-label">Free Classified Credit</div>
-                                <div class="stm-pricing-table__feature-value">
-                                    <i class="fa fa-check"></i>
-                                </div>
-                            </li>
-                            <li class="stm-pricing-table__feature">
-                                <div class="stm-pricing-table__feature-label">Premium Classified Credit</div>
-                                <div class="stm-pricing-table__feature-value">
-                                    100 </div>
-                            </li>
-                            <li class="stm-pricing-table__feature">
-                                <div class="stm-pricing-table__feature-label">Article Quota</div>
-                                <div class="stm-pricing-table__feature-value">
-                                    <i class="fa fa-check"></i>
-                                </div>
-                            </li>
-                            <li class="stm-pricing-table__feature">
-                                <div class="stm-pricing-table__feature-label">Premium Article Credit</div>
-                                <div class="stm-pricing-table__feature-value">
-                                    <i class="fa fa-check"></i>
-                                </div>
-                            </li>
-                            <li class="stm-pricing-table__feature">
-                                <div class="stm-pricing-table__feature-label">Multiple Selection</div>
-                                <div class="stm-pricing-table__feature-value">
-                                    10 </div>
-                            </li>
-                            <li class="stm-pricing-table__feature">
-                                <div class="stm-pricing-table__feature-label">Live Updates</div>
-                                <div class="stm-pricing-table__feature-value">
-                                    <i class="fa fa-check"></i>
-                                </div>
-                            </li>
-                        </ul>
+                    <div class="col-md-3">
+                        <span class="person">Personal</span>
+                        <span class="leader">Leader</span>
+                        <div class="columns">
+                            <ul class="price">
+                                <li class="cls">ENTERPRISE</li>
+                                <li class="header">$15/month</li>
+                                <li>2</li>
+                                <li class="grey">7 days</li>
+                                <li><i class="fa fa-minus"></i></li>
+                                <li class="grey"><i class="fa fa-check"></i></li>
+                                <li>0</li>
+                                <li class="grey"><i class="fa fa-check"></i></li>
+                                <li><i class="fa fa-check"></i></li>
+                                <li class="grey">3</li>
+                                <li>NO</li>
+                                <li class="sign"><a href="#" class="button">Sign Up</a></li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-            </div>
-
-            <div class="col-md-3">
-                <div class="stm-pricing__tables-col-inner">
-                    <div class="stm_pricing_table_col_labels heading-font clearfix">
-                        <button type="button" class="stm_pricing_table_single_label">Popular</button>
-                        <button type="button" class="stm_pricing_table_single_label">Dealer</button>
-                    </div>
-                    <div class="stm-pricing-table heading-font">
-                        <div class="stm-pricing-table__title">Enterprise</div>
-                        <ul class="stm-pricing-table__periods">
-                            <li class="stm-pricing-table__periods-item stm-pricing-table__periods-item_active" data-period="month">
-                                <div class="stm-pricing-table__price">
-                                    $15/month </div>
-                            </li>
-                            <li class="stm-pricing-table__periods-item" data-period="yearly">
-                                <div class="stm-pricing-table__price">
-                                    $10/month </div>
-                            </li>
-                        </ul>
-                        <ul class="stm-pricing-table__features">
-                            <li class="stm-pricing-table__feature">
-                                <div class="stm-pricing-table__feature-label">Active Listing Quota</div>
-                                <div class="stm-pricing-table__feature-value">
-                                    300 </div>
-                            </li>
-                            <li class="stm-pricing-table__feature">
-                                <div class="stm-pricing-table__feature-label">Listing Period</div>
-                                <div class="stm-pricing-table__feature-value">
-                                    Unlimited </div>
-                            </li>
-                            <li class="stm-pricing-table__feature">
-                                <div class="stm-pricing-table__feature-label">Premium Listing Credit</div>
-                                <div class="stm-pricing-table__feature-value">
-                                    <i class="fa fa-check"></i>
-                                </div>
-                            </li>
-                            <li class="stm-pricing-table__feature">
-                                <div class="stm-pricing-table__feature-label">Free Classified Credit</div>
-                                <div class="stm-pricing-table__feature-value">
-                                    <i class="fa fa-check"></i>
-                                </div>
-                            </li>
-                            <li class="stm-pricing-table__feature">
-                                <div class="stm-pricing-table__feature-label">Premium Classified Credit</div>
-                                <div class="stm-pricing-table__feature-value">
-                                    400 </div>
-                            </li>
-                            <li class="stm-pricing-table__feature">
-                                <div class="stm-pricing-table__feature-label">Article Quota</div>
-                                <div class="stm-pricing-table__feature-value">
-                                    <i class="fa fa-check"></i>
-                                </div>
-                            </li>
-                            <li class="stm-pricing-table__feature">
-                                <div class="stm-pricing-table__feature-label">Premium Article Credit</div>
-                                <div class="stm-pricing-table__feature-value">
-                                    <i class="fa fa-check"></i>
-                                </div>
-                            </li>
-                            <li class="stm-pricing-table__feature">
-                                <div class="stm-pricing-table__feature-label">Multiple Selection</div>
-                                <div class="stm-pricing-table__feature-value">
-                                    50 </div>
-                            </li>
-                            <li class="stm-pricing-table__feature">
-                                <div class="stm-pricing-table__feature-label">Live Updates</div>
-                                <div class="stm-pricing-table__feature-value">
-                                    Yes </div>
-                            </li>
-                        </ul>
-                        <div class="stm-pricing-table__periods-link stm-pricing-table__periods-item_active" data-period="month">
+                    <div class="col-md-3">
+                        <span class="person">Personal</span>
+                        <div class="columns">
+                            <ul class="price">
+                                <li class="cls">FREE</li>
+                                <li class="header"><i class="fa fa-minus"></i></li>
+                                <li>2</li>
+                                <li class="grey">7 days</li>
+                                <li><i class="fa fa-minus"></i></li>
+                                <li class="grey"><i class="fa fa-check"></i></li>
+                                <li>0</li>
+                                <li class="grey"><i class="fa fa-minus"></i></li>
+                                <li><i class="fa fa-check"></i></li>
+                                <li class="grey">3</li>
+                                <li>NO</li>
+                                <li class="sign"><a href="#" class="button">Sign Up</a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>

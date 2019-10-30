@@ -7,52 +7,71 @@ preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
+
 <div class="type-1796">
     <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h3>Sign In</h3>
-                <div class="ax">
-                    <span>You can use these credentials for demo testing:</span>
-                </div>
-                <div class="a">
-                    <span>
-                        <b>Dealer:</b><br>
-                        dealer<br>
-                        dealer
-                    </span>
-                </div>
-                <div class="b">
-                    <span>
-                        <b>User:</b><br>
-                        demo<br>
-                        demo
-                    </span>
-                </div>
-            </div>
-
-        </div>
-        <div class="stm-login-forms">
-            <form method="post" class="aa">
-                <div class="form-group">
-                    <h4>Login or E-mail</h4>
-                    <input type="text" name="stm_user_login" placeholder="Enter login or E-mail">
-                </div>
-                <div class="form-group">
-                    <h4>Password</h4>
-                    <input type="password" name="stm_user_password" placeholder="Enter password">
-                </div>
-                <div class="form-group form-checker">
-                    <label>
-                        <span class="checker"><input type="checkbox" name="stm_remember_me">Remember me</span>
-                    </label>
-                    <div class="stm-forgot-password">
-                        <a href="#">Forgot Password</a>
+        <div class="login-wrap">
+            <div class="login-html">
+                <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
+                <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
+                <div class="login-form">
+                    <div class="sign-in-htm">
+                        <div class="group">
+                            <label for="user" class="label">Login or E-mail</label>
+                            <input id="user" type="text" class="input">
+                        </div>
+                        <div class="group">
+                            <label for="pass" class="label">Password</label>
+                            <input id="pass" type="password" class="input" data-type="password">
+                        </div>
+                        <div class="group">
+                            <input id="check" type="checkbox" class="check" checked>
+                            <label for="check"><span class="icon"></span>Remember me</label>
+                        </div>
+                        <div class="group">
+                            <input type="submit" class="button" value="Sign In">
+                        </div>
+                        <div class="hr"></div>
+                        <div class="foot-lnk">
+                            <a href="#forgot">Forgot Password?</a>
+                        </div>
+                    </div>
+                    <div class="sign-up-htm">
+                        <div class="group">
+                            <label for="user" class="label">Login or E-mail</label>
+                            <input id="user" type="text" class="input">
+                        </div>
+                        <div class="group">
+                            <label for="pass" class="label">Password</label>
+                            <input id="pass" type="password" class="input" data-type="password">
+                        </div>
+                        <div class="group">
+                            <label for="pass" class="label">Repeat Password</label>
+                            <input id="pass" type="password" class="input" data-type="password">
+                        </div>
+                        <div class="group">
+                            <label for="pass" class="label">Email Address</label>
+                            <input id="pass" type="text" class="input">
+                        </div>
+                        <div class="group">
+                            <input type="submit" class="button" value="Sign Up">
+                        </div>
+                        <div class="hr"></div>
+                        <div class="foot-lnk">
+                            <label for="tab-1">Already Member?</a>
+                        </div>
                     </div>
                 </div>
-                <input class="box" type="submit" value="Login">
-                <span class="stm-listing-loader"><i class="stm-icon-load1"></i></span>
-            </form>
+            </div>
         </div>
     </div>
 </div>
+
+<script>
+    $('.message a').click(function() {
+        $('form').animate({
+            height: "toggle",
+            opacity: "toggle"
+        }, "slow");
+    });
+</script>

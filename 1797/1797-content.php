@@ -8,18 +8,15 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 
-<header class="masthead" style="background-image: url('img/home-bg.jpg');">
-  <div class="type-1797">
-    <div class="container">
-      <div class="row">
-            <div class="overlay"></div>
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="site-heading">
-            <h1>Clean Blog</h1>
-            <span class="subheading">A Blog Theme by Start Bootstrap</span>
-          </div>
-        </div>
+<div class="type-1797">
+  <div class="container">
+    <div class="row">
+      <div class="site-heading">
+      <h1 class='txtelegantshadow'>Clean Blog</h1>
+        <span class="subheading">A Blog Theme by Start Bootstrap</span>
       </div>
     </div>
   </div>
-</header>
+</div>
+
+

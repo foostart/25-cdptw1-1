@@ -1,5 +1,4 @@
 <?php
-
     $url_host = 'http://'.$_SERVER['HTTP_HOST'];
     $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
     $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
@@ -15,22 +14,23 @@
     
     $less = new lessc;
     $less->compileFile('less/1796.less', 'css/1796.css');
-    
 ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>module 1796</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet"  />
-        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet"/>
-        <link href="<?php echo $url_path ?>/css/1796.css" rel="stylesheet" type="text/css" />
-
+        <title>1796</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="<?php echo $url_path ?>/css/bootstrap-v3.3.7.min.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/1796.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="<?php echo $url_path ?>/css/swiper.min.css">
+        <link rel="stylesheet" type="text/css" href="css/styles-slider.css">
+        <script src="<?php echo $url_path ?>/js/jquery-3.1.1.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/1796.js"></script>
     </head>
     <body>
-         <?php include'1796-content.php'; ?>
+        <?php include '1796-content.php'; ?>
     </body>
-
 </html>
