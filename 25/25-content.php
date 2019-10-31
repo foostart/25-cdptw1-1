@@ -13,10 +13,10 @@ $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-25">
     <div class="container">
-        <h3 class="h3">shopping Demo-3 </h3>
+        <h3 class="h3">Shopping Demo-3 </h3>
         <div class="row">
             <div class="col-md-3 col-sm-6">
-                <div class="product-grid3">
+                <div class="pdg">
                     <div class="product-image3">
                         <a href="#">
                             <img class="pic-1" alt="i1" src="./images/9a.jpg">
@@ -53,7 +53,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
-                <div class="product-grid3">
+                <div class="pdg">
                     <div class="product-image3">
                         <a href="#">
                             <img class="pic-1" alt="j1" src="./images/10a.jpg">
@@ -88,7 +88,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
-                <div class="product-grid3">
+                <div class="pdg">
                     <div class="product-image3">
                         <a href="#">
                             <img class="pic-1" alt="k1" src="./images/11a.jpg">
@@ -125,7 +125,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
-                <div class="product-grid3">
+                <div class="pdg">
                     <div class="product-image3">
                         <a href="#">
                             <img class="pic-1" alt="l1" src="./images/12a.jpg">
@@ -162,7 +162,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
-                <div class="product-grid3">
+                <div class="pdg">
                     <div class="product-image3">
                         <a href="#">
                             <img class="pic-1" alt="i1" src="./images/9a.jpg">
@@ -202,7 +202,7 @@ $url_path = str_replace('\\', '/', $url_path);
     </div>
 
     <div class="container">
-        <h3 class="h3">shopping Demo-8 </h3>
+        <h3 class="h3">Shopping Demo-8 </h3>
         <div class="row">
             <div class="col-md-4 col-sm-6">
                 <div class="product-grid8">
