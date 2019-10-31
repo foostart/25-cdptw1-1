@@ -48,6 +48,7 @@ $url_path = str_replace('\\', '/', $url_path);
           <p class="post-meta">Posted by Start Bootstrap on July 8, 2019</p>
         </div>
         <br>
+        <!-- Pager -->
         <div class="clearfix">
           <a class="btn btn-primary float-right" href="#">Older Posts →</a>
         </div>

@@ -23,8 +23,12 @@
         <title>module 1798</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet"  />
+        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet"/>
         <link href="<?php echo $url_path ?>/css/1798.css" rel="stylesheet" type="text/css" />
+   
+
     </head>
     <body>
          <?php include'1798-content.php'; ?>
