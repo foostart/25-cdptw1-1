@@ -223,6 +223,7 @@
   font-family: Poppins, sans-serif;
   position: relative;
   z-index: 1;
+  margin-bottom: 10px;
 }
 .type-25 .product-grid8 .product-image8 {
   border: 1px solid #e4e9ef;
