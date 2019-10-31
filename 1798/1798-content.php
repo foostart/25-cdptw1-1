@@ -20,14 +20,14 @@ $url_path = str_replace('\\', '/', $url_path);
           </h4>
           <p class="post-meta">Posted by Start Bootstrap on September 24, 2019</p>
         </div>
-        <hr>
+        <br>
         <div class="post-preview">
             <h2 class="post-title">
               I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.
             </h2>
           <p class="post-meta">Posted by Start Bootstrap on September 18, 2019</p>
         </div>
-        <hr>
+        <br>
         <div class="post-preview">
             <h2 class="post-title">
               Science has not yet mastered prophecy
@@ -37,7 +37,7 @@ $url_path = str_replace('\\', '/', $url_path);
             </h4>
           <p class="post-meta">Posted by Start Bootstrap on August 24, 2019</p>
         </div>
-        <hr>
+        <br>
         <div class="post-preview">
             <h2 class="post-title">
               Failure is not an option
@@ -47,13 +47,11 @@ $url_path = str_replace('\\', '/', $url_path);
             </h4>
           <p class="post-meta">Posted by Start Bootstrap on July 8, 2019</p>
         </div>
-        <hr>
-        <!-- Pager -->
+        <br>
         <div class="clearfix">
           <a class="btn btn-primary float-right" href="#">Older Posts →</a>
         </div>
       </div>
     </div>
   </div>
-  <hr>
 </div>

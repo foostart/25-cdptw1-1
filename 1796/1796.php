@@ -23,12 +23,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link href="<?php echo $url_path ?>/css/bootstrap-v3.3.7.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/1796.css" rel="stylesheet" type="text/css"/>
-        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="<?php echo $url_path ?>/css/swiper.min.css">
-        <link rel="stylesheet" type="text/css" href="css/styles-slider.css">
-        <script src="<?php echo $url_path ?>/js/jquery-3.1.1.min.js"></script>
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/1796.js"></script>
     </head>
     <body>
         <?php include '1796-content.php'; ?>

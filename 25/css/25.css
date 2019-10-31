@@ -41,27 +41,6 @@
 .type-25 input.star-21:checked~label.star:before {
   color: #F62;
 }
-.type-25 input.star-26:checked~label.star:before {
-  color: #F62;
-}
-.type-25 input.star-31:checked~label.star:before {
-  color: #F62;
-}
-.type-25 input.star-36:checked~label.star:before {
-  color: #F62;
-}
-.type-25 input.star-41:checked~label.star:before {
-  color: #F62;
-}
-.type-25 input.star-46:checked~label.star:before {
-  color: #F62;
-}
-.type-25 input.star-51:checked~label.star:before {
-  color: #F62;
-}
-.type-25 input.star-56:checked~label.star:before {
-  color: #F62;
-}
 .type-25 label.star:hover {
   transform: rotate(-15deg) scale(1.3);
 }
